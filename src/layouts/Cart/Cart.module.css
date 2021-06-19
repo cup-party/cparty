@@ -1,0 +1,37 @@
+.colRestroDetails{
+    margin: 0;
+    padding: 0;
+}
+
+.colDish{
+    margin: 0;
+    padding: 0;
+}
+
+.colHead{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.above{
+    z-index: 2;
+    background-color: #fff;
+    min-width: 100%;
+    position: relative;
+}
+
+.below{
+    left: 0;
+    top: 0;
+    position: sticky;
+    z-index: 0;
+}
+
+.bgWhite{
+    background-color: #fff;
+}
+
+.block{
+    display: block;
+    min-width: 100%;
+}

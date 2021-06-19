@@ -1,0 +1,57 @@
+.btnViewCart{
+    width: 100%;
+    height: 3rem;
+    border-radius: 0 !important;
+    border: 0 !important;
+    color: #fff;
+    z-index: 5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.btnCartText{
+    text-align: right;
+    font-size: 18px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.btnViewCartRow{
+    max-height: 3rem;
+    margin: 0 !important;
+    padding: 1 !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnCartColLeft{
+    max-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.btnCartColRight{
+    max-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnCartColItems{
+    font-size: 10px;
+    margin: 0 !important;
+    padding: 4 !important;
+}
+
+.btnCartColPrice{
+    font-size: 16px;
+    margin: 0 !important;
+    padding: 0 !important;
+}

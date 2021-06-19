@@ -1,0 +1,22 @@
+.heading{
+    font-size: 20px;
+    margin: 0 0 0 16px;
+    padding: 12px 0;
+}
+.headingDiv{
+    background-color: #fff;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.headingSplitLine{
+    height: 4px;
+    width: 3rem;
+    margin-left: 16px;
+    margin-bottom: 4px;
+}

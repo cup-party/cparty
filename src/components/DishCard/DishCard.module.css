@@ -1,0 +1,128 @@
+.dishRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 8px 0 8px 0;
+    justify-content: space-between;
+    border: 0px !important;
+    border-bottom: 1px solid rgb(255, 255, 255) !important;
+    line-height: 20px;
+    padding-bottom: 8px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    background-color: #fff;
+    /* box-shadow: 0 1px 8px 00 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.1); */
+}
+
+.dishColLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.dishColRight{
+    justify-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mutedPType{
+    color: #757575;
+    text-align: left;
+    margin: 0px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.mutedPDesc{
+    color: #616161;
+    text-align: left;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.dishH{
+    color: #212121;
+    text-align: left;
+    margin: 0px;
+    font-size: 16px;
+}
+.dishBadge{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px 0;
+}
+
+.badge{
+    margin-right: 4px;
+}
+
+.price{
+    color: #424242;
+    text-align: left;
+    margin: 0px;
+    font-size: 16px;
+}
+
+.btnDishAdd{
+    font-weight: bolder;
+    color: #ED5A6B;
+    background-color: #FFFFFF;
+    border: 1px solid #1C1C1C;
+    border-right: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.btnDishRem{
+    font-weight: bolder;
+    color: #ED5A6B;
+    background-color: #FFFFFF;
+    border: 1px solid #1C1C1C;
+    border-left: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.btnDishQty{
+    color: #1C1C1C ;
+    font-weight: bolder;
+    background-color: #FFFFFF;
+    border-top: 1px solid #1C1C1C;
+    border-bottom: 1px solid #1C1C1C;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.btnDishAdd:hover{
+    background-color: #ED5A6B;
+    color: #fff ;
+}
+.btnDishRem:hover{
+    background-color: #ED5A6B;
+    color: #fff ;
+}
+
+.dishImg{
+    margin: 0px 4px 4px 4px;
+    padding:0;
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+}
